@@ -2,6 +2,7 @@
 
 # ABRIR PORTAS SERVER AVIRA HOST E ORACLE:
 # dev by: @asas_dev 
+# Desenvolvido a pedido do amigo https://t.me/Sandroog
 
 echo -e ""
 echo -e "⚙️ ️ ATUALIZANDO PACOTES... AGUARDE.."
