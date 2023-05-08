@@ -65,6 +65,8 @@ echo -e "⚙️ ️ ABRINDO PORTA ... 25/tcp.."
 firewall-cmd --zone=public --permanent --add-port=25/tcp
 echo -e "⚙️ ️ ABRINDO PORTA ... 5000/tcp.."
 firewall-cmd --zone=public --permanent --add-port=5000/tcp
+echo -e "⚙️ ️ ABRINDO PORTA ... 3306/tcp.."
+firewall-cmd --zone=public --permanent --add-port=3306/tcp
 echo -e "⚙️ ️ FIREWALLD RELOAD ..."
 firewall-cmd --reload
 echo -e "⚙️ ️ LISTA DE PORTAS ABERTAS..."
