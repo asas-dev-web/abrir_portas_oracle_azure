@@ -29,6 +29,8 @@ echo -e "⚙️ ️ ABRINDO PORTA ... 80/tcp.."
 firewall-cmd --zone=public --permanent --add-port=80/tcp
 echo -e "⚙️ ️ ABRINDO PORTA ... 81/tcp.."
 firewall-cmd --zone=public --permanent --add-port=81/tcp
+echo -e "⚙️ ️ ABRINDO PORTA ... 82/tcp.."
+firewall-cmd --zone=public --permanent --add-port=82/tcp
 echo -e "⚙️ ️ ABRINDO PORTA ... 8080/tcp.."
 firewall-cmd --zone=public --permanent --add-port=8080/tcp
 echo -e "⚙️ ️ ABRINDO PORTA ... 443/tcp.."
