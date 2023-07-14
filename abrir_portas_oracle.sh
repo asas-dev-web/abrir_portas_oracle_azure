@@ -72,6 +72,9 @@ firewall-cmd --zone=public --permanent --add-port=3306/tcp
 echo -e "⚙️ ️ ABRINDO PORTA ... 51820/tcp.."
 firewall-cmd --zone=public --permanent --add-port=51820/tcp
 echo -e "⚙️ ️ FIREWALLD RELOAD ..."
+echo -e "⚙️ ️ ABRINDO PORTA ... 51820/udp.."
+firewall-cmd --zone=public --permanent --add-port=51820/udp
+echo -e "⚙️ ️ FIREWALLD RELOAD ..."
 firewall-cmd --reload
 echo -e "⚙️ ️ LISTA DE PORTAS ABERTAS..."
 firewall-cmd --zone=public --list-ports
